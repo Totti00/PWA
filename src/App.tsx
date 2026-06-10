@@ -68,7 +68,7 @@ function App() {
     return Math.round(completion)
   }, [totalAnswers])
 
-  const dailyQuiz = quizBank[(new Date().getDate() + 1) % quizBank.length]
+  const dailyQuiz = quizBank[(new Date().getDate() - 1) % quizBank.length]
 
   const reviewItems = useMemo(
     () => quizBank.filter((quiz) => mistakeIds.includes(quiz.id)),
