@@ -1,0 +1,24 @@
+{
+  "name": "Semestre Filtro Trainer",
+  "short_name": "Filtro Trainer",
+  "description": "PWA mobile-first per preparazione al semestre filtro.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#f3f5fb",
+  "theme_color": "#101225",
+  "lang": "it-IT",
+  "icons": [
+    {
+      "src": "/favicon.svg",
+      "sizes": "192x192",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    },
+    {
+      "src": "/favicon.svg",
+      "sizes": "512x512",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    }
+  ]
+}
